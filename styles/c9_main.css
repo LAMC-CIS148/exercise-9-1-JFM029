@@ -187,11 +187,16 @@ footer p {
 @media only screen and (max-width: 648px) {
 	header img { float: none; }
 	header { text-align: center; }
+	main{
+		flex-direction: column;
+	}
 	section {
+		order: 1;
 		float: none;
 		width: 95%;
 	}
 	aside {
+		order: 2;
 		float: none;
 		padding-right: 2.5%;
 		width: 95%;
