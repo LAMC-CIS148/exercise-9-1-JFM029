@@ -42,6 +42,9 @@ header img {
 }
 /* the styles for the navigation menu */
 #nav_menu ul {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
